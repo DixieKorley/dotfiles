@@ -9,4 +9,8 @@ input() converts data input as if it were Python code, and raw_input() doesn't c
 
 How do you access command line arguments in a Python script?
 
-Import sys to use sys.argv - sys.argv contains the command-line arguments passedto the script.
+Import sys to use sys.argv - sys.argv contains the command-line arguments passedto the script. Or import os, and pass in a command line argument.
+
+Why does why-no-run.py not run when using ./why-no-run.py? Why does it run when you use python why-no-run.py? 
+
+We never told the operating system that this was an executable file. You can either use chmod to change permissions or just execute it by running python. 
