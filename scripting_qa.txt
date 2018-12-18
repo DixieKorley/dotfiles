@@ -1,0 +1,12 @@
+What is the difference between subprocess.popen and os.system?
+
+os.system is used to execute the command in a subshell after called the C system() function. subprocess.Popen executes a child program in a new process.
+
+What is the difference between raw_input() and input()?
+
+input() converts data input as if it were Python code, and raw_input() doesn't convert the input and takes it as it was given. 
+
+
+How do you access command line arguments in a Python script?
+
+Import sys to use sys.argv - sys.argv contains the command-line arguments passedto the script.
