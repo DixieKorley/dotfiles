@@ -2,7 +2,7 @@
 
 import os
  
-os.system("grep -oh '\w*love\w*' sonnet.txt > answer.txt && wc -w answer.txt") 
-os.system("grep -oh '\w*thee\w*' sonnet.txt > answer2.txt && wc -w answer2.txt")
-os.system("grep -oh '\w*to\w*' sonnet.txt > answer3.txt && wc -w answer3.txt")
-os.system("grep -oh '\w*eternal\w*' sonnet.txt > answer4.txt && wc -w answer4.txt")
+os.system("grep -oh -e '\w*love\w*' -e '\w*thee\w*' -e '\w*to\w*' -e '\w*eternal\w*' sonnet.txt > answer_final.txt && wc -w answer_final.txt") 
+
+
+
