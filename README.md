@@ -1,3 +1,3 @@
 # dotfiles
 
-Portable storage of all configuration files.
+Keeps all configuration files
