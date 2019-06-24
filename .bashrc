@@ -11,3 +11,4 @@ function get_git_branch() {
 PS1="\d :: \u :: \w\$(get_git_branch) \$ "
 
 alias m="ssh -X dixiekorley@gmail.com"
+alias python="python3.6"
