@@ -1,0 +1,7 @@
+[user]
+	name = Dixie Korley
+	email = dixiekorley@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim

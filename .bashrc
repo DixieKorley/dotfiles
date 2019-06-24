@@ -12,3 +12,4 @@ PS1="\d :: \u :: \w\$(get_git_branch) \$ "
 
 alias m="ssh -X dixiekorley@gmail.com"
 alias python="python3.6"
+alias dkserver="ssh root@104.248.181.254"
